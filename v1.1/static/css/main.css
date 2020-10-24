@@ -1,0 +1,103 @@
+
+* {
+    border: 1px solid #ff0000;
+    /*position: absolute;*/
+}
+body {
+    position: relative;
+    margin: 0px;
+    height: 710px;
+    width: auto;
+}
+
+.input {
+    position: absolute;
+    width: 870px;
+    height: 60px;
+    left: 160px;
+    bottom: 100px;
+    z-index: 999;
+}
+
+.input * {
+    border: 0px;
+}
+
+.text-remind {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    top: 6px;
+    left: 500px;
+    font-size: 10px;
+    color: gray;
+    padding-top: 7.5px;
+    text-align: right;
+}
+
+.text-box {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.submit-button {
+    border: 1.5px solid #4CAF50;
+    border-radius: 4px;
+    position: absolute;
+    left: 630px;
+    top: 10px;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.submit-button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.submit-button:active {
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+    border: 2px solid #4CAF50;
+    transform: scale(0.9);
+}
+
+.select-method {
+    position: absolute;
+    left: 720px;
+    top: 10px;
+    height: 38px;
+}
+
+.choice {
+    position: relative;
+    height: 40px;
+    top: -4px;
+}
+
+.label {
+    position: relative;
+    font-size: 20px;
+    top: -17px;
+    left: -4px;
+}
+
+.message-box {
+    /*border: 0px;*/
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 340px;
+    height: 600px;
+}
+
+.chat-item {
+    border: 0px;
+    margin: 2px;
+}
