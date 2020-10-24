@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="UTF-8" content="initial-scale=1.0, user-scalable=0">
+    <title>表白墙 v1.1</title>
+</head>
+<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+<style>
+    /*body {*/
+    /*    background-image: url("/static/img/bg01.png");*/
+    /*     background-size: 100%;*/
+    /*    background-repeat: no-repeat;*/
+    /*}*/
+</style>
+<script src="/static/js/jquery/jquery-1.8.3.min.js"></script>
+<body>
+    最外层边框
+    <div class="input" id="input">
+        <input class="text-box" type="text" placeholder="输入框" style="height: 40px; width: 600px">
+        <p class="text-remind"></p>
+        <button class="submit-button" type="button" onclick="submitText()">提交</button>
+        <div class="select-method">
+            <input name="select-method" class="choice" id="not-real" type="radio" value="not-real">
+            <label class="choice label" for="not-real">匿名</label>
+            <input name="select-method" class="choice" id="real" type="radio" value="real">
+            <label class="choice label" for="real">实名</label>
+        </div>
+    </div>
+    <div class="message-box" style="overflow-y:auto">
+    </div>
+    <script type="text/javascript" src="/static/js/getChats.js"></script>
+    <script type="text/javascript" src="/static/js/submitText.js"></script>
+    <script type="text/javascript" src="/static/js/chatsBody.js"></script>
+</body>
+</html>
